@@ -1,0 +1,19 @@
+skip_local_validator = true
+
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+proof_of_creation_chain = "C9Sio3xr6Qii65iAYU25VPsmASQ7LsamJKnrFD3Fmp73"
+
+[provider]
+cluster = "devnet"
+wallet = "/mnt/c/Users/Admin/wallets/player.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]
